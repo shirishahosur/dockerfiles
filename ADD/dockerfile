@@ -1,0 +1,4 @@
+FROM almalinux:9
+ADD https://github.com/shirishahosur/shell-script /tmp/shell-script.txt
+ADD sample-1.tar /tmp/
+CMD [ "sleep","60" ]
